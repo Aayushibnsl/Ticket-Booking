@@ -949,7 +949,8 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   max-width: 673px;
-    width: 104%}
+  width: 104%;
+}
 
 .container h2,
 .container p {
@@ -997,16 +998,19 @@ body {
 
 /* Submit Button Styles */
 button[type="submit"] {
-  background-color: red;
+  background-color: #fc6325;
   color: #fff;
-  padding: 15px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 18px 28px;
   font-size: 1rem;
+  border: none;
+  border-radius: 63px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
-  display: block;
-  margin: 0 auto;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
 }
 
 
